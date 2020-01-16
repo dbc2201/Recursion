@@ -18,5 +18,6 @@ public class Main {
         System.out.println("Enter the number you want to find the factorial for: ");
         int number = scanner.nextInt();
         int calculatedFactorial = calculator.calculateFactorial(number);
+        System.out.println("The factorial of " + number + " is : " + calculatedFactorial);
     }
 }
