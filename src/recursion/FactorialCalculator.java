@@ -9,6 +9,10 @@ package recursion;
 
 public class FactorialCalculator {
     public int calculateFactorial(int number) {
+        // base condition
+        if (number == 0 || number == 1) {
+
+        }
         return 0;
     }
 }
