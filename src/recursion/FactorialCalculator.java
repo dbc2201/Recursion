@@ -8,4 +8,7 @@
 package recursion;
 
 public class FactorialCalculator {
+    public int calculateFactorial(int number) {
+        return 0;
+    }
 }
