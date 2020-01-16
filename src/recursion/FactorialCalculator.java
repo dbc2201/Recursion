@@ -13,6 +13,7 @@ public class FactorialCalculator {
         if (number == 0 || number == 1) {
             return 1;
         }
-        return 0;
+        // call the method inside the body of the method while decreasing the input
+        return number * calculateFactorial(number - 1);
     }
 }
