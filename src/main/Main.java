@@ -9,8 +9,11 @@ package main;
 
 import recursion.FactorialCalculator;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         FactorialCalculator calculator = new FactorialCalculator();
+        final Scanner scanner = new Scanner(System.in);
     }
 }
