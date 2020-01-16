@@ -15,5 +15,6 @@ public class Main {
     public static void main(String[] args) {
         FactorialCalculator calculator = new FactorialCalculator();
         final Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number you want to find the factorial for: ");
     }
 }
